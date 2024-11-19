@@ -1,0 +1,59 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cash Till Final",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/31-Guided-project-debugging-cash-till/GuidedProject/Final/bin/Debug/net8.0/Final.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/31-Guided-project-debugging-cash-till/GuidedProject/Final",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Cash Till Starter",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/31-Guided-project-debugging-cash-till/GuidedProject/Starter/bin/Debug/net8.0/Starter.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/31-Guided-project-debugging-cash-till/GuidedProject/Starter",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
+            "name": "Exceptions Challenge",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/29-Challenge-catch-specific-exceptions/bin/Debug/net8.0/29-Challenge-catch-specific-exceptions.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/29-Challenge-catch-specific-exceptions",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Variable Data Challenge",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/23-Challenge-project-variable-data/Starter/bin/Debug/net8.0/Starter.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/23-Challenge-project-variable-data",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
